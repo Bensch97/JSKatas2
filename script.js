@@ -2,7 +2,7 @@ function reverse (inputString, splitOn, joinOn, questionNumber) {
     let stringSplit = inputString.split(splitOn);
     let reversedString = stringSplit.reverse();
     let joined = reversedString.join(joinOn);
-    console.log(questionNumber, ":", joined)
+    console.log(questionNumber, ":", inputString, joined)
 }
 
 reverse("Donald", "", "", "1");
